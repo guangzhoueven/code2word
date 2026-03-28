@@ -9,7 +9,7 @@ export default defineConfig({
     // Vite 中 base 配置项的默认值是 /。
     // 这意味着，如果你没有显式设置 base，Vite 会默认将所有静态资源的路径当作相对于网站根目录 / 来处理。
     // 会影响到所有硬编码的路径。而像变量动态绑定的路径，不会受影响。
-    base: '/code2word/',
+    base: '/',
     plugins: [vue()],
     resolve: {
         alias: {
