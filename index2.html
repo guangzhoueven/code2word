@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Language" content="zh-CN">
+<title>代码高亮在线转换工具 | 将高亮美化的代码一键粘贴到 Word 或 OneNote 中</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="代码高亮在线转换">
+<meta name="keywords" content="代码高亮在线转换,wordpress代码高亮,代码高亮,代码着色">
+<link rel="stylesheet" type="text/css" href="cssjs/style.css">
+<link rel="stylesheet" type="text/css" href="cssjs/highlight.css">
+<script src="cssjs/shCore.js"></script>
+<script src="cssjs/rendered.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<h1>代码高亮在线转换</h1>
+<div id="usehelp">通过代码实现wordpress代码高亮的功能</div>
+</div>
+<div id="post">
+<div id="main">
+<div id="main_box">
+<h2>输入源代码</h2>
+ 
+<textarea title="输入源代码." class="java" id="sourceCode" style="width: 100%" name="sourceCode" rows="6"></textarea>
+</div>
+<div id="main_box">
+<h2>转换设置</h2>
+<span class="options">选择语言:&nbsp;&nbsp;
+<select onchange="document.getElementById(&#39;sourceCode&#39;).className=this.value">
+<option value="java" selected="">java</option>
+<option value="xml">xml</option>
+<option value="sql">sql</option>
+<option value="jscript">jscript</option>
+<option value="groovy">groovy</option>
+<option value="css">css</option>
+<option value="cpp">cpp</option>
+<option value="c#">c#</option>
+<option value="python">python</option>vb
+<option value="perl">perl</option>
+<option value="php">php</option>
+<option value="ruby">ruby</option>
+<option value="delphi">delphi</option>
+</select>
+</span>
+<span class="options">选项：&nbsp;
+<input id="showGutter" type="checkbox" checked=""> 显示行号
+<input id="firstLine" type="checkbox" checked=""> 起始为1
+<!--<span class="options_no">-->
+<input id="showControls" type="checkbox"> 工具栏
+<input id="collapseAll" type="checkbox"> 折叠
+<input id="showColumns" type="checkbox"> 显示列数
+<!--</span>-->
+</span>
+<span class="render">
+<button style="width: 80px;height:25px;" onclick="generateCode()">转&nbsp;&nbsp;换</button>
+<button style="width: 80px;height:25px;" onclick="clearText()">清&nbsp;&nbsp;除</button>
+</span>
+</div>
+<div id="main_box">
+<h2>HTML 代码</h2>
+<textarea id="htmlCode" style="width: 100%" name="htmlCode" rows="6"></textarea>
+</div>
+<div id="main_box">
+<h2>HTML 预览</h2>
+<div id="preview"></div>
+</div>
+</div>
+</div>
+
+</div>
+ <h5 class="page-header"></h5>
+<table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><script src='jsad/sydbh.js' language='JavaScript'></script>
+</td>
+  </tr>
+</table>
+ <footer style="padding:20px;text-align:center;color:#aaa;font-family: Tahoma,&#39;微软雅黑&#39;;">
+  <div style="padding:10px;">
+<a href="https://www.wd1x.com/webyemianjia/about.htm" target="_blank">关于我们</a> | <a href="https://www.wd1x.com/Excel/">Excel教程</font></a> | <a href="https://www.wd1x.com/Word/"> Word教程</a> | <a href="https://www.wd1x.com/wps/">WPS教程</font></a> | <a href="https://www.wd1x.com/powerpoint/">PowerPoint教程</font></a> | <a href="https://www.wd1x.com/map.htm" target="_blank">网站导航</a> |
+        <script src="6.js"></script><br><font face="Geneva, Arial, Helvetica, sans-serif">Copyright &copy; 2022</font> <font face="Geneva, Arial, Helvetica, sans-serif">WD1X.com All Rights Reserved</font><br>隐私声明：在整个代码高亮着色过程中，该程序不会传输您的任何代码到我们的服务器，或收集存储您以任何其他方式输入的其他任何信息。
+   </div>
+  </footer>
+</body>
+</html>
