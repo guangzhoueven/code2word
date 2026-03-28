@@ -1,2 +1,2 @@
 var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?05cddb616b02cd107b215fc985dc104d";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();
-document.writeln("<a target=\'_blank\' href=\'http://ask.wd1x.com/question/add.html'>Òâ¼û·´À¡</a>");
+document.writeln("<a target=\'_blank\' href=\'http://ask.wd1x.com/question/add.html'>???????</a>");
